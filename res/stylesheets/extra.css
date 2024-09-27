@@ -2,6 +2,14 @@
   max-width: 90%; 
 }
 
+/* 自定义移动端的样式（如果需要特别调整） */
+@media only screen and (max-width: 768px) {
+  body {
+      /* 手机端的背景颜色保持一致 */
+      background-color: #ffffff;
+  }
+}
+
 :root {
   --md-primary-fg-color:        #EE0F0F;
   --md-primary-fg-color--light: #ECB7B7;
