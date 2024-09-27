@@ -127,16 +127,16 @@ requestFrame();
 </body>
 </html>
 
-<div class="grid cards" style = "margin:10px calc(50%) 10px calc(5%)" markdown>
+<div class="grid cards" style = "margin:10px calc(30%) 10px calc(5%)" markdown>
 
 -   :material-book-open-variant:{ .lg .middle } __2020-07-27 C__
 
     ---
 
-    天昏云暗深闭门。人也孤独，月也孤独。<br>
-    花自飘零风几度。梅雨才去，雷雨却赴。<br>
+    天昏云暗深闭门。<br>人也孤独，月也孤独。<br>
+    花自飘零风几度。<br>梅雨才去，雷雨却赴。<br>
     <br>
-    城深不知归去处。山高无路，有舟怎渡？<br>
-    琼楼玉宇惹谁妒。诸葛怀古，唯有草庐。
+    城深不知归去处。<br>山高无路，有舟怎渡？<br>
+    琼楼玉宇惹谁妒。<br>诸葛怀古，唯有草庐。
 </div>
 
