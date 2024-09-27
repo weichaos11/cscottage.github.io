@@ -108,15 +108,15 @@ a,img{border:0;text-decoration:none;}
 					<span class="pulse delay-01"></span>
           <span class="pulse delay-02"></span>
 					</div>
-        <div class="show-regin"><span><a href="https://www.zhihu.com/people/zhi-yi-73-45">云南</a></span></div>
+        <div class="show-regin"><span><a href="https://love.cscottage.top/trip/yunnan/dali/">云南</a></span></div>
 			</div>
-			<!--<div class="region-list waite postition-4 waite-node">
+			<div class="region-list waite postition-4 waite-node">
 				<div class="area-box"><span class="dot"></span><span class="pulse delay-01"></span>
 					<span class="pulse delay-02"></span>
 					</div>
-				<div class="show-regin"><span>陕西</span></div>
+				<div class="show-regin"><span><a href="http://love.cscottage.top/trip/shanxi/xian/">陕西</a></span></div>
 			</div>
-			<div class="region-list active postition-5 online-node">
+			<!--<div class="region-list active postition-5 online-node">
 				<div class="area-box"><span class="dot"></span><span class="pulse delay-06"></span>
 					<span class="pulse delay-05"></span>
 					<span class="pulse delay-04"></span></div>
@@ -138,7 +138,7 @@ a,img{border:0;text-decoration:none;}
 				<div class="area-box"><span class="dot"></span><span class="pulse delay-06"></span>
 					<span class="pulse delay-05"></span>
 					<span class="pulse delay-04"></span></div>
-				<div class="show-regin"><span>山东</span></div>
+				<div class="show-regin"><span><a href="http://love.cscottage.top/trip/shandong/qingdao/">山东</a></span></div>
 			</div>
 			<!--<div class="region-list active postition-7 online-node">
 				<div class="area-box"><span class="dot"></span><span class="pulse delay-10"></span>
@@ -156,7 +156,7 @@ a,img{border:0;text-decoration:none;}
 				<div class="area-box"><span class="dot"></span><span class="pulse delay-10"></span>
 					<span class="pulse delay-09"></span>
 					<span class="pulse delay-08"></span></div>
-				<div class="show-regin"><span>江苏</span></div>
+				<div class="show-regin"><span><a href="http://love.cscottage.top/trip/jiangsu/suzhou/">江苏</a></span></div>
 			</div>
 			<!--<div class="region-list active postition-10 online-node">
 				<div class="area-box"><span class="dot"></span><span class="pulse delay-06"></span>
@@ -168,19 +168,19 @@ a,img{border:0;text-decoration:none;}
 				<div class="area-box"><span class="dot"></span><span class="pulse delay-06"></span>
 					<span class="pulse delay-05"></span>
 					<span class="pulse delay-04"></span></div>
-				<div class="show-regin"><span>海南</span></div>
+				<div class="show-regin"><span><a href="http://love.cscottage.top/trip/hainan/sanya/">海南</a></span></div>
 			</div>
       <div class="region-list active postition-14 online-node">
 				<div class="area-box"><span class="dot"></span><span class="pulse delay-10"></span>
 					<span class="pulse delay-09"></span>
 					<span class="pulse delay-08"></span></div>
-				<div class="show-regin"><span>上海</span></div>
+				<div class="show-regin"><span><a href="http://love.cscottage.top/trip/shanghai/shanghai/">上海</a></span></div>
 			</div>
       <div class="region-list waite postition-15 waite-node">
 				<div class="area-box"><span class="dot"></span><span class="pulse delay-01"></span>
 					<span class="pulse delay-02"></span>
 					</div>
-				<div class="show-regin"><span>浙江</span></div>
+				<div class="show-regin"><span><a href="http://love.cscottage.top/trip/zhejiang/hangzhou/">浙江</a></span></div>
 			</div>
 	
 		</div>

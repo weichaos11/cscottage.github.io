@@ -70,17 +70,17 @@
 !!! pied-piper1 "“画写物外形，要物形不改；诗传画外意，贵有画中态。”"
 
     === "诗情"
-        - [x] [《鹊桥仙》](https://debug.telink-semi.cn/web_bdt/)
+        - [x] [《鹊桥仙》](http://love.cscottage.top/shihua/shi/queqiaoxian/)
 
-        - [x] [《如果我是》](https://debug.telink-semi.cn/web_bdt/)
+        - [x] [《如果我是》](http://love.cscottage.top/shihua/shi/ruguowoshi/)
 
-        - [x] [《你说，你想去看海》](https://debug.telink-semi.cn/web_bdt/)
+        - [x] [《你说，你想去看海》](http://love.cscottage.top/shihua/shi/kanhai/)
 
-        - [x] [《盼暖春来》](https://debug.telink-semi.cn/web_bdt/)
+        - [x] [《盼暖春来》](http://love.cscottage.top/shihua/shi/pannuanchunlai/)
 
-        - [x] [《想有个房间》](https://debug.telink-semi.cn/web_bdt/)
+        - [x] [《想有个房间》](http://love.cscottage.top/shihua/shi/fangjian/)
 
-        - [x] [《鹊桥仙》](https://debug.telink-semi.cn/web_bdt/)
+        - [x] [《一剪梅》](http://love.cscottage.top/shihua/shi/yijianmei/)
 
     === "画意"
         - [ ] 内容待添加，整理后补充~~
