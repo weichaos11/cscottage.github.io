@@ -47,7 +47,7 @@
 </body>
 </html>
 
-<div class="grid cards" style = "margin:10px calc(50%) 10px calc(5%)" markdown>
+<div class="grid cards" style = "margin:10px calc(30%) 10px calc(5%)" markdown>
 
 -   :material-book-open-variant:{ .lg .middle } __2020-02-23 C__
 
