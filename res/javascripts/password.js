@@ -9,7 +9,7 @@ function checkPassword() {
     localStorage.setItem('site_auth', input);
     return true;
   }
-  window.location.href = "/";
+  href = "http://love.cscottage.top/";
   return false;
 }
 
