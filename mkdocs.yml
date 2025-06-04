@@ -134,8 +134,8 @@ markdown_extensions:
 
 extra_javascript:
   - javascripts/katex.js
-  - https://cdn.auth0.com/js/auth0-spa-js/1.2/auth0-spa-js.production.js
-  - javascripts/auth.js
+  #- https://cdn.auth0.com/js/auth0-spa-js/1.2/auth0-spa-js.production.js
+  #- javascripts/auth.js
   - https://unpkg.com/katex@0/dist/katex.min.js
   - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
 
