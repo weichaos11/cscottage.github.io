@@ -1,4 +1,4 @@
-const CORRECT_PASSWORD = "your_password";
+const CORRECT_PASSWORD = "cscottage";
 
 function checkPassword() {
   const stored = localStorage.getItem('site_auth');
