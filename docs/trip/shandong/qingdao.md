@@ -1,225 +1,143 @@
 ---
-icon: yantai
+icon: qingdao
 ---
+
+## 2023.10
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>轮播图</title>
     <style>
-        *{
-            margin: 0;
-            padding: 0;
-            text-decoration: none;
-            list-style: none;
-            background-repeat: no-repeat;
-        .carousel {
-            position: relative;
-            width: 1000px;
-            height: 900px;
-            overflow: hidden;
-        }
-        .carousel-inner {
+        body{
+            /*background-color: rgba(130, 140, 250, 0.2);*/
             display: flex;
-            width: 1600px;
-            height: 900px;
-            transition: transform 0.1s ease-in-out;
+            justify-content: center;
         }
+        .shell{
+            max-width: 1300px;
+            column-count: 5;
+            column-gap: 15px;
         }
-        .item {
-            flex: 0 0 100%;
-            height: 55vh%;
+        .image{
+            margin-bottom: 15px;
         }
-        .item img {
-            max-width: 1000px;
+        .image img{
+            width: 100%;
+            border-radius: 20px;
         }
-        .carousel-control {
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            color: #fff;
-            font-size: 80px;
-            z-index: 10;
-            cursor: pointer;
+        .image img:hover {
+            transform: scale(1.2);
         }
-        .left {
-            left: 25px;
+        @media (max-width:1200px){
+            .shell{
+                column-count: 4;
+            }
         }
-        .right {
-            right: 25px;
+        @media (max-width:850px){
+            .shell{
+                column-count: 3;
+            }
         }
-        .dots {
-            position: absolute;
-            bottom: 20px;
-            left: 50%;
-            z-index: 15;
-            width: 60%;
-            padding-left: 0;
-            margin-left: -30%;
-            text-align: center;
-            list-style: none;
-        }
-        .dots > li {
-            display: inline-block;
-            width: 10px;
-            height: 10px;
-            margin: 1px;
-            cursor: pointer;
-            background-color: rgba(0,0,0,0);
-            border: 1px solid #fff;
-            border-radius: 10px;
-        }
-        .dots .active {
-            width: 12px;
-            height: 12px;
-            margin: 0;
-            background-color: #fff;
+        @media (max-width:600px){
+            .shell{
+                column-count: 2;
+            }
         }
     </style>
 </head>
- 
 <body>
-    <div class="carousel" id="carousel">
-        <div class="carousel-inner">
-            <div class="item">
-                <img src="../img/qd1.jpg" style="background-color: pink;">
-            </div>
-            <div class="item">
-                <img src="../img/qd2.jpg" style="background-color: bisque;">
-            </div>
-            <div class="item">
-                <img src="../img/qd3.jpg" style="background-color: rgb(144, 255, 236);">
-            </div>
-            <div class="item">
-                <img src="../img/qd4.jpg" style="background-color: rgb(248, 99, 124);">
-            </div>
-            <div class="item">
-                <img src="../img/qd5.jpg" style="background-color: rgb(210, 161, 250);">
-            </div>
-            <div class="item">
-                <img src="../img/qd6.jpg" style="background-color: rgb(210, 161, 250);">
-            </div>
-            <div class="item">
-                <img src="../img/qd7.jpg" style="background-color: rgb(210, 161, 250);">
-            </div>
-            <div class="item">
-                <img src="../img/qd11.jpg" style="background-color: rgb(210, 161, 250);">
-            </div>
-            <div class="item">
-                <img src="../img/qd12.jpg" style="background-color: bisque;">
-            </div>
-            <div class="item">
-                <img src="../img/qd13.jpg" style="background-color: rgb(144, 255, 236);">
-            </div>
-            <div class="item">
-                <img src="../img/qd14.jpg" style="background-color: rgb(248, 99, 124);">
-            </div>
-            <div class="item">
-                <img src="../img/qd15.jpg" style="background-color: rgb(210, 161, 250);">
-            </div>
-            <div class="item">
-                <img src="../img/qd16.jpg" style="background-color: rgb(210, 161, 250);">
-            </div>
-            <div class="item">
-                <img src="../img/qd17.jpg" style="background-color: rgb(210, 161, 250);">
-            </div>
-            <div class="item">
-                <img src="../img/qd21.jpg" style="background-color: pink;">
-            </div>
-            <div class="item">
-                <img src="../img/qd22.jpg" style="background-color: bisque;">
-            </div>
-            <div class="item">
-                <img src="../img/qd23.jpg" style="background-color: rgb(144, 255, 236);">
-            </div>
-            <div class="item">
-                <img src="../img/qd24.jpg" style="background-color: rgb(248, 99, 124);">
-            </div>
-            <div class="item">
-                <img src="../img/qd25.jpg" style="background-color: rgb(210, 161, 250);">
-            </div>
-            <div class="item">
-                <img src="../img/qd26.jpg" style="background-color: rgb(210, 161, 250);">
-            </div>
-            <div class="item">
-                <img src="../img/qd27.jpg" style="background-color: rgb(210, 161, 250);">
-            </div>
-        </div>
-        <div class="carousel-control left" onclick="prevSlide()">&lsaquo;</div>
-        <div class="carousel-control right" onclick="nextSlide()">&rsaquo;</div>
-        <div class="dots">
-            <li class="active" onclick="jumpToSlide(0)"></li>
-            <li onclick="jumpToSlide(1)"></li>
-            <li onclick="jumpToSlide(2)"></li>
-            <li onclick="jumpToSlide(3)"></li>
-            <li onclick="jumpToSlide(4)"></li>
-            <li onclick="jumpToSlide(5)"></li>
-            <li onclick="jumpToSlide(6)"></li>
-            <li onclick="jumpToSlide(7)"></li>
-            <li onclick="jumpToSlide(8)"></li>
-            <li onclick="jumpToSlide(9)"></li>
-            <li onclick="jumpToSlide(10)"></li>
-            <li onclick="jumpToSlide(11)"></li>
-            <li onclick="jumpToSlide(12)"></li>
-            <li onclick="jumpToSlide(13)"></li>
-            <li onclick="jumpToSlide(14)"></li>
-            <li onclick="jumpToSlide(15)"></li>
-            <li onclick="jumpToSlide(16)"></li>
-            <li onclick="jumpToSlide(17)"></li>
-            <li onclick="jumpToSlide(1)"></li>
-            <li onclick="jumpToSlide(18)"></li>
-            <li onclick="jumpToSlide(19)"></li>
-            <li onclick="jumpToSlide(20)"></li>
-        </div>
+    <div class="shell">
+        <div class="image"><img src="../img/qd1.jpg"></div>
+        <div class="image"><img src="../img/qd2.jpg"></div>
+        <div class="image"><img src="../img/qd3.jpg"></div>
+        <div class="image"><img src="../img/qd4.jpg"></div>
+        <div class="image"><img src="../img/qd5.jpg"></div>
+        <div class="image"><img src="../img/qd6.jpg"></div>
+        <div class="image"><img src="../img/qd7.jpg"></div>
+        <div class="image"><img src="../img/qd8.jpg"></div>
+        <div class="image"><img src="../img/qd9.jpg"></div>
+        <div class="image"><img src="../img/qd10.jpg"></div>
+        <div class="image"><img src="../img/qd11.jpg"></div>
+        <div class="image"><img src="../img/qd12.jpg"></div>
+        <div class="image"><img src="../img/qd13.jpg"></div>
+        <div class="image"><img src="../img/qd14.jpg"></div>
+        <div class="image"><img src="../img/qd15.jpg"></div>
+        <div class="image"><img src="../img/qd16.jpg"></div>
+        <div class="image"><img src="../img/qd17.jpg"></div>
+        <div class="image"><img src="../img/qd18.jpg"></div>
+        <div class="image"><img src="../img/qd19.jpg"></div>
+        <div class="image"><img src="../img/qd20.jpg"></div>
+        <div class="image"><img src="../img/qd21.jpg"></div>
     </div>
 </body>
-    <script>
-        let items = document.querySelectorAll('.item');
-        let current = 0;
-        function showSlide() {
-            items.forEach(item => {
-                item.style.transform = `translateX(-${current * 100}%)`;
-            });
-            updateDots();
+</html>
+
+## 2025.9
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            /*background-color: rgba(130, 140, 250, 0.2);*/
+            display: flex;
+            justify-content: center;
         }
-        function prevSlide() {
-            if (current > 0) {
-                current--;
-            } else {
-                current = items.length - 1;
+        .shell{
+            max-width: 1300px;
+            column-count: 5;
+            column-gap: 15px;
+        }
+        .image{
+            margin-bottom: 15px;
+        }
+        .image img{
+            width: 100%;
+            border-radius: 20px;
+        }
+        .image img:hover {
+            transform: scale(1.2);
+        }
+        @media (max-width:1200px){
+            .shell{
+                column-count: 4;
             }
-            showSlide();
         }
-        function nextSlide() {
-            if (current < items.length - 1) {
-                current++;
-            } else {
-                current = 0;
+        @media (max-width:850px){
+            .shell{
+                column-count: 3;
             }
-            showSlide();
         }
-        let timer = setInterval(nextSlide, 3000);
-        function pauseTimer() {
-            clearInterval(timer);
+        @media (max-width:600px){
+            .shell{
+                column-count: 2;
+            }
         }
-        function resumeTimer() {
-            timer = setInterval(nextSlide, 3000);
-        }
-        document.getElementById('carousel').addEventListener('mouseover', pauseTimer);
-        document.getElementById('carousel').addEventListener('mouseout', resumeTimer);
-        let dots = document.querySelectorAll('.dots li');
-        function updateDots() {
-            dots.forEach(dot => {
-                dot.classList.remove('active');
-            });
-            dots[current].classList.add('active');
-        }
-        function jumpToSlide(index) {
-            current = index;
-            showSlide();
-            updateDots();
-        }
-    </script>
+    </style>
+</head>
+<body>
+    <div class="shell">
+        <div class="image"><img src="../img/qd30.jpg"></div>
+        <div class="image"><img src="../img/qd31.jpg"></div>
+        <div class="image"><img src="../img/qd32.jpg"></div>
+        <div class="image"><img src="../img/qd33.jpg"></div>
+        <div class="image"><img src="../img/qd34.jpg"></div>
+        <div class="image"><img src="../img/qd35.jpg"></div>
+        <div class="image"><img src="../img/qd41.jpg"></div>
+        <div class="image"><img src="../img/qd42.jpg"></div>
+        <div class="image"><img src="../img/qd43.jpg"></div>
+        <div class="image"><img src="../img/qd44.jpg"></div>
+        <div class="image"><img src="../img/qd45.jpg"></div>
+        <div class="image"><img src="../img/qd46.jpg"></div>
+        <div class="image"><img src="../img/qd47.jpg"></div>
+        <div class="image"><img src="../img/qd48.jpg"></div>
+        <div class="image"><img src="../img/qd49.jpg"></div>
+    </div>
+</body>
 </html>

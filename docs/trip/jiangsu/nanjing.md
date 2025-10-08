@@ -2,6 +2,32 @@
 icon: nanjing
 ---
 
+# 南京
+
+## 旅游计划
+
+!!! Abstract ""
+
+    === "上午"
+
+        * 玄武湖
+
+    === "下午"
+
+        1. 明孝陵（神道金黄银杏叶）
+        2. 美龄宫 --> 中山陵
+        3. 灵谷寺（金陵桂花王大桂花树，可不去）
+    
+    === "晚上"
+
+        * 夫子庙
+    
+    <hr style="border-bottom:2.5px solid rgba(132, 172, 240, 1)">
+
+    :octicons-heart-fill-24:{.heart} [南京一日游抖音记录](https://www.douyin.com/user/MS4wLjABAAAAXD3xE4ARhbdpqQvDvQPzN3oHenEyIBdWzGV5GYHRosqGUn8nvJuz1aoPVScoUCX1?from_tab_name=main&modal_id=7399239217588538662)
+
+## 相册
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,6 +51,9 @@ icon: nanjing
         .image img{
             width: 100%;
             border-radius: 20px;
+        }
+        .image img:hover {
+            transform: scale(1.2);
         }
         @media (max-width:1200px){
             .shell{

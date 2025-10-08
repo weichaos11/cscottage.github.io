@@ -26,6 +26,9 @@ icon: wuxi
             width: 100%;
             border-radius: 20px;
         }
+        .item img:hover {
+            transform: scale(1.2);
+        }
     </style>
 </head>
 
@@ -37,9 +40,6 @@ icon: wuxi
         <!-- 图片加多点 -->
         <div class="item" v-for="item in 15">
             <img src="../img/wx2.jpg">
-        </div>
-        <div class="item" v-for="item in 15">
-            <img src="../img/wx3.jpg">
         </div>
         <div class="item" v-for="item in 15">
             <img src="../img/wx4.jpg">

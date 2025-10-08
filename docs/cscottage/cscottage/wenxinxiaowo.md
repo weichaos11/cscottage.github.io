@@ -2,6 +2,8 @@
 icon: jia
 ---
 
+## 乔迁之喜
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,6 +27,9 @@ icon: jia
             display: block;
             width: 100%;
             border-radius: 20px;
+        }
+        .item img:hover {
+            transform: scale(1.2);
         }
     </style>
 </head>
@@ -92,3 +97,101 @@ icon: jia
 ## 黑板墙
 
 <iframe src="https://www.bilibili.com/video/BV16z421Q7Tj?t=47.2" width="100%" height="500" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
+
+## 一些日常
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <title>我们的窝</title>
+    <style>
+        body{
+            margin: 3px;
+        }
+        .container{
+    /* 将元素分为5列 */
+            column-count: 3;
+    /* 设置列之间的间隙 */
+            column-gap: 0px;
+        }
+        .item{
+            padding: 3px;
+        }
+        .item img{
+            display: block;
+            width: 100%;
+            border-radius: 20px;
+        }
+        .item img:hover {
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" id="app">
+        <div class="item" v-for="item in 15">
+            <img src="../pic/wmdw30.jpg">
+        </div>
+        <div class="item" v-for="item in 15">
+            <img src="../pic/wmdw31.jpg">
+        </div>
+        <div class="item" v-for="item in 15">
+            <img src="../pic/wmdw32.jpg">
+        </div>
+        <div class="item" v-for="item in 15">
+            <img src="../pic/wmdw33.jpg">
+        </div>
+        <div class="item" v-for="item in 15">
+            <img src="../pic/wmdw34.jpg">
+        </div>
+        <div class="item" v-for="item in 15">
+            <img src="../pic/wmdw35.jpg">
+        </div>
+        <div class="item" v-for="item in 15">
+            <img src="../pic/wmdw36.jpg">
+        </div>
+        <div class="item" v-for="item in 15">
+            <img src="../pic/wmdw37.jpg">
+        </div>
+        <div class="item" v-for="item in 15">
+            <img src="../pic/wmdw38.jpg">
+        </div>
+        <div class="item" v-for="item in 15">
+            <img src="../pic/wmdw39.jpg">
+        </div>
+        <div class="item" v-for="item in 15">
+            <img src="../pic/wmdw40.jpg">
+        </div>
+        <div class="item" v-for="item in 15">
+            <img src="../pic/wmdw41.jpg">
+        </div>
+        <div class="item" v-for="item in 15">
+            <img src="../pic/wmdw42.jpg">
+        </div>
+        <div class="item" v-for="item in 15">
+            <img src="../pic/wmdw43.jpg">
+        </div>
+        <div class="item" v-for="item in 15">
+            <img src="../pic/wmdw44.jpg">
+        </div>
+        <div class="item" v-for="item in 15">
+            <img src="../pic/wmdw45.jpg">
+        </div>
+        <div class="item" v-for="item in 15">
+            <img src="../pic/wmdw46.jpg">
+        </div>
+    </div>
+</body>
+
+</html>
+
+<script>
+    new Vue({
+        el:'#app',
+        data:{}
+    })
+</script>

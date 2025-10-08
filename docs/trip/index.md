@@ -140,13 +140,13 @@ a,img{border:0;text-decoration:none;}
 					<span class="pulse delay-04"></span></div>
 				<div class="show-regin"><span><a href="http://love.cscottage.top/trip/shandong/qingdao/">山东</a></span></div>
 			</div>
-			<!--<div class="region-list active postition-7 online-node">
+			<div class="region-list active postition-7 online-node">
 				<div class="area-box"><span class="dot"></span><span class="pulse delay-10"></span>
 					<span class="pulse delay-09"></span>
 					<span class="pulse delay-08"></span></div>
-				<div class="show-regin"><span>辽宁</span></div>
+				<div class="show-regin"><span><a href="http://love.cscottage.top/trip/liaoning/dalian/">辽宁</a></span></div>
 			</div>
-			<div class="region-list active postition-8 online-node">
+			<!--<div class="region-list active postition-8 online-node">
 				<div class="area-box"><span class="dot"></span><span class="pulse delay-06"></span>
 					<span class="pulse delay-05"></span>
 					<span class="pulse delay-04"></span></span></div>

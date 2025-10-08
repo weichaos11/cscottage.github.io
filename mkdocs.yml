@@ -5,10 +5,41 @@ site_name: C&S Cottage
 nav:
   - 跳跳之家:
     - Timeaxis: cscottage/index.md
-    - 校园记忆: cscottage/cscottage/xyjy.md
     - 我们的窝: cscottage/cscottage/wenxinxiaowo.md
-    - 时光手账:
-      - 2017-10-14: cscottage/cscottage/richang.md
+  - 时光手账:
+    - 时间印记: shiguang/shiguang/sjyj.md
+    - 校园记忆:
+      - 校园记忆: shiguang/shiguang/xyjy.md
+      - 毕业快乐: shiguang/shiguang/bykl.md
+    - With You:
+      - 2017-10-14: shiguang/shiguang/sz20171014.md
+      - 2018-12-09: shiguang/shiguang/sz20181209.md
+      - 2018-12-30: shiguang/shiguang/sz20181230.md
+      - 2019-02-17: shiguang/shiguang/sz20190217.md
+      - 2019-03-08: shiguang/shiguang/sz20190308.md
+      - 2019-03-23: shiguang/shiguang/sz20190323.md
+      - 2019-04-05: shiguang/shiguang/sz20190405.md
+      - 2019-04-10: shiguang/shiguang/sz20190410.md
+      - 2019-04-23: shiguang/shiguang/sz20190423.md
+      - 2019-05-04: shiguang/shiguang/sz20190504.md
+      - 2019-06-07: shiguang/shiguang/sz20190607.md
+      - 2019-06-22: shiguang/shiguang/sz20190622.md
+      - 2019-12-15: shiguang/shiguang/sz20191215.md
+      - 2019-12-24: shiguang/shiguang/sz20191224.md
+    - 日常:
+      - 2018-12-16: shiguang/shiguang/rc20181216.md
+      - 2018-12-31: shiguang/shiguang/rc20181231.md
+      - 2019-01-01: shiguang/shiguang/rc20190101.md
+      - 2019-03-30: shiguang/shiguang/rc20190330.md
+      - 2019-06-30: shiguang/shiguang/rc20190630.md
+      - 2019-07-14: shiguang/shiguang/rc20190714.md
+      - 2019-08-20: shiguang/shiguang/rc20190820.md
+      - 2019-12-08: shiguang/shiguang/rc20191208.md
+      - 2020-01-01: shiguang/shiguang/rc20200101.md
+      - 2020-04-04: shiguang/shiguang/rc20200404.md
+      - 2020-01-01: shiguang/shiguang/rc20200101.md
+      - 2020-01-26~02-05: shiguang/shiguang/rc20200126.md
+      - 2022-12: shiguang/shiguang/rc202212.md
   - 与君同游:
     - 与君同游: trip/index.md
     - 山东:
@@ -19,6 +50,13 @@ nav:
       - 南京: trip/jiangsu/nanjing.md
       - 无锡: trip/jiangsu/wuxi.md
     #  - 南通:
+    - 上海:
+      - 上海: trip/shanghai/shanghai.md
+    - 浙江:
+      - 杭州: trip/zhejiang/hangzhou.md
+      - 嘉兴: trip/zhejiang/jiaxing.md
+      - 嵊泗列岛: trip/zhejiang/shengsi.md
+      - 丽水: trip/zhejiang/lishui.md
     - 云南:
     #  - 昆明:
       - 大理: trip/yunnan/dali.md
@@ -27,22 +65,72 @@ nav:
       - 三亚: trip/hainan/sanya.md
     - 陕西: 
       - 西安: trip/shanxi/xian.md
-    - 上海:
-      - 上海: trip/shanghai/shanghai.md
-    - 浙江:
-      - 杭州: trip/zhejiang/hangzhou.md
-      - 嵊泗列岛: trip/zhejiang/shengsi.md
-      - 乌镇: trip/zhejiang/wuzhen.md
+    - 辽宁:
+      - 大连: trip/liaoning/dalian.md
   - 诗情画意:
     - 诗情画意: shihua/index.md
     - 诗情:
+      - 三句诗: shihua/shi/sanjushi.md
+      - 写给妈妈: shihua/shi/tomama.md
       - 鹊桥仙: shihua/shi/queqiaoxian.md
+      - 千岛湖: shihua/shi/qiandaohu.md
+      - 滕州: shihua/shi/tengzhou.md
       - 如果我是: shihua/shi/ruguowoshi.md
       - 你说，你想去看海: shihua/shi/kanhai.md
       - 盼暖春来: shihua/shi/pannuanchunlai.md
       - 想有个房间: shihua/shi/fangjian.md
       - 一剪梅: shihua/shi/yijianmei.md
-    #- 画意:
+      - 南丁格尔的脚印: shihua/shi/ndge.md
+      - 我曾: shihua/shi/woceng.md
+      - 记UZI最后一次复出: shihua/shi/uzi.md
+    - 画意:
+      - C:
+        - 枯木: shihua/hua/c/kumu.md
+        - 大圣归来: shihua/hua/c/dasheng.md
+        - 我爱罗/鼬: shihua/hua/c/gaara.md
+        - 织田信长: shihua/hua/c/xinchang.md
+        - 金木研: shihua/hua/c/jinmuyan.md
+      - S:
+        - 2018-08-29: shihua/hua/s/20180829.md
+        - 2020-11-19: shihua/hua/s/20201119.md
+        - 2020-11-20: shihua/hua/s/20201120.md
+        - 2020-11-27: shihua/hua/s/20201127.md
+        - 2020-11-30: shihua/hua/s/20201130.md
+        - 2020-12-05: shihua/hua/s/20201205.md
+        - 2021-09-05: shihua/hua/s/20210905.md
+        - 2021-10-10: shihua/hua/s/20211010.md
+        - 2021-10-17: shihua/hua/s/20211017.md
+        - 2022-02-19: shihua/hua/s/20220219.md
+        - 2022-03-14: shihua/hua/s/20220314.md
+        - 2022-03-15: shihua/hua/s/20220315.md
+        - 2022-03-19: shihua/hua/s/20220319.md
+        - 2022-03-26: shihua/hua/s/20220326.md
+        - 2022-03-27: shihua/hua/s/20220327.md
+        - 2022-04-02: shihua/hua/s/20220402.md
+        - 2022-04-04: shihua/hua/s/20220404.md
+        - 2022-04-05: shihua/hua/s/20220405.md
+        - 2022-04-06: shihua/hua/s/20220406.md
+        - 2022-04-10: shihua/hua/s/20220410.md
+        - 2022-04-30: shihua/hua/s/20220430.md
+        - 2022-05-03: shihua/hua/s/20220503.md
+        - 2022-05-04: shihua/hua/s/20220504.md
+        - 2022-05-14: shihua/hua/s/20220514.md
+        - 2022-05-15: shihua/hua/s/20220515.md
+        - 2025-06-16: shihua/hua/s/20250616.md
+  - 演唱会:
+    - 演唱会: yanchanghui/index.md
+    - 2019:
+      - 房东的猫·2019南京: yanchanghui/ych/fddm2019.md
+    - 2022:
+      - 新裤子·2022苏州: yanchanghui/ych/xkz2022.md
+    - 2023:
+      - 伍佰·2023上海: yanchanghui/ych/wb2023.md
+    - 2024:
+      - 紫琅音乐节·2024南通: yanchanghui/ych/ntzl2024.md
+      - 周传雄·2024上海: yanchanghui/ych/zcx2024.md
+    - 2025:
+      - 谢天笑·2024上海: yanchanghui/ych/xtx2024.md
+      - 张韶涵·2025昆山: yanchanghui/ych/zsh2025.md
   - 是博主呀:
     - 是博主呀: shibozhuya/index.md
     #- 哔哩哔哩:
@@ -112,7 +200,11 @@ repo_name: 跳跳之家 # 右上角的名字
 markdown_extensions:
   - admonition
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true 
   - attr_list
@@ -152,7 +244,7 @@ extra_css:
 
 
 extra:
-  generator: false
+  #generator: false
   alternate:
     #- name: English
       #link: ../en/ 
@@ -178,7 +270,7 @@ extra:
       name: 只一
   
   
-copyright: Copyright © 2024 跳跳之家版权所有 | 硕总专属
+copyright: Copyright © 2024 跳跳之家版权所有 | <a href="/legal/copyright/">硕总专属</a>
 
 
 

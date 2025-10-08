@@ -2,6 +2,8 @@
 icon: sanya
 ---
 
+# 三亚
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -85,6 +87,24 @@ icon: sanya
         </div>
         <div class="item" v-for="item in 15">
             <img src="../img/sy18.jpg">
+        </div>
+        <div class="item" v-for="item in 15">
+            <img src="../img/sy19.jpg">
+        </div>
+        <div class="item" v-for="item in 15">
+            <img src="../img/sy20.jpg">
+        </div>
+        <div class="item" v-for="item in 15">
+            <img src="../img/sy21.jpg">
+        </div>
+        <div class="item" v-for="item in 15">
+            <img src="../img/sy22.jpg">
+        </div>
+        <div class="item" v-for="item in 15">
+            <img src="../img/sy23.jpg">
+        </div>
+        <div class="item" v-for="item in 15">
+            <img src="../img/sy24.jpg">
         </div>
     </div>
 </body>

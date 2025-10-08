@@ -1,8 +1,8 @@
 ---
-icon: qingdao
+icon: yantai
 ---
 
-<section>
+<!--<section>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -122,19 +122,13 @@ icon: qingdao
 </head>
 
 <body>
-    <!-- 页面 -->
     <div class="page">
-        <!-- 背景展示图片 -->
         <img class="img-show" src="../img/yt1.jpg" alt="yt1">
-        <!-- 横向滚动容器 -->
         <div class="scroll hidden">
-            <!-- 图片列表显示与隐藏 -->
             <div class="show-hidden">
                 <i class="bx bxs-chevrons-up"></i>
             </div>
-            <!-- 图片容器 -->
             <div class="img-container">
-                <!-- 图片 -->
                 <div class="img">
                     <img src="../img/yt1.jpg" alt="yt1">
                 </div>
@@ -173,11 +167,10 @@ icon: qingdao
                 </div>
                 <div class="img">
                     <img src="./assets/img-03.jpg" alt="">
-                </div> -->
+                </div>
             </div>
         </div>
     </img>
-    <!-- 脚本 -->
     <script>
         // 获取页面元素
 // const page = document.querySelector('.page')
@@ -221,7 +214,75 @@ imgs.forEach(img => {
 </body>
 
 </html>
-</section>
+</section>-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            /*background-color: rgba(130, 140, 250, 0.2);*/
+            display: flex;
+            justify-content: center;
+        }
+        .shell{
+            max-width: 1300px;
+            column-count: 5;
+            column-gap: 15px;
+        }
+        .image{
+            margin-bottom: 15px;
+        }
+        .image img{
+            width: 100%;
+            border-radius: 20px;
+        }
+        .image img:hover {
+            transform: scale(1.2);
+        }
+        @media (max-width:1200px){
+            .shell{
+                column-count: 4;
+            }
+        }
+        @media (max-width:850px){
+            .shell{
+                column-count: 3;
+            }
+        }
+        @media (max-width:600px){
+            .shell{
+                column-count: 2;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="shell">
+        <div class="image"><img src="../img/yt1.jpg"></div>
+        <div class="image"><img src="../img/yt2.jpg"></div>
+        <div class="image"><img src="../img/yt3.jpg"></div>
+        <div class="image"><img src="../img/yt4.jpg"></div>
+        <div class="image"><img src="../img/yt5.jpg"></div>
+        <div class="image"><img src="../img/yt6.jpg"></div>
+        <div class="image"><img src="../img/yt7.jpg"></div>
+        <div class="image"><img src="../img/yt8.jpg"></div>
+        <div class="image"><img src="../img/yt9.jpg"></div>
+        <div class="image"><img src="../img/yt10.jpg"></div>
+        <div class="image"><img src="../img/yt11.jpg"></div>
+        <div class="image"><img src="../img/yt12.jpg"></div>
+        <div class="image"><img src="../img/yt13.jpg"></div>
+        <div class="image"><img src="../img/yt14.jpg"></div>
+        <div class="image"><img src="../img/yt15.jpg"></div>
+        <div class="image"><img src="../img/yt16.jpg"></div>
+        <div class="image"><img src="../img/yt17.jpg"></div>
+        <div class="image"><img src="../img/yt18.jpg"></div>
+        <div class="image"><img src="../img/yt19.jpg"></div>
+    </div>
+</body>
+</html>
 
 <br>
 <br>

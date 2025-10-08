@@ -2,7 +2,7 @@
 icon: suzhou
 ---
 
-## 新裤子演唱会
+## 苏州
 
 <!DOCTYPE html>
 <html lang="en">
@@ -27,6 +27,9 @@ icon: suzhou
         .image img{
             width: 100%;
             border-radius: 20px;
+        }
+        .image img:hover {
+            transform: scale(1.2);
         }
         @media (max-width:1200px){
             .shell{
@@ -68,6 +71,9 @@ icon: suzhou
         <div class="image"><img src="../img/sz1-20.jpg"></div>
         <div class="image"><img src="../img/sz1-21.jpg"></div>
         <div class="image"><img src="../img/sz1-22.jpg"></div>
+        <div class="image"><img src="../img/sz1-23.jpg"></div>
+        <div class="image"><img src="../img/sz1-24.jpg"></div>
+        <div class="image"><img src="../img/sz1-25.jpg"></div>
     </div>
 </body>
 </html>

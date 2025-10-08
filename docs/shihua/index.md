@@ -83,4 +83,8 @@
         - [x] [《一剪梅》](http://love.cscottage.top/shihua/shi/yijianmei/)
 
     === "画意"
-        - [ ] 内容待添加，整理后补充~~
+        一些“拙劣的”，只有感情没有技巧的模仿~
+
+        - [C](http://love.cscottage.top/shihua/hua/c/kumu/)
+
+        - [S](http://love.cscottage.top/shihua/hua/s/20180829/)
