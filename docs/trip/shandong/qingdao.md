@@ -138,6 +138,7 @@ icon: qingdao
         <div class="image"><img src="../img/qd47.jpg"></div>
         <div class="image"><img src="../img/qd48.jpg"></div>
         <div class="image"><img src="../img/qd49.jpg"></div>
+        <div class="image"><img src="../img/qd50.jpg"></div>
     </div>
 </body>
 </html>

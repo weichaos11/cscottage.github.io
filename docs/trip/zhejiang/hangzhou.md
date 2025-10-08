@@ -70,30 +70,30 @@ icon: hangzhou
 </head>
 <body>
     <div class="shell">
-        <div class="image"><img src="../img/hz0.JPG"></div>
-        <div class="image"><img src="../img/hz1.JPG"></div>
-        <div class="image"><img src="../img/hz2.JPG"></div>
-        <div class="image"><img src="../img/hz3.JPG"></div>
-        <div class="image"><img src="../img/hz4.JPG"></div>
-        <div class="image"><img src="../img/hz5.JPG"></div>
-        <div class="image"><img src="../img/hz6.JPG"></div>
-        <div class="image"><img src="../img/hz7.JPG"></div>
-        <div class="image"><img src="../img/hz8.JPG"></div>
-        <div class="image"><img src="../img/hz9.JPG"></div>
-        <div class="image"><img src="../img/hz10.JPG"></div>
-        <div class="image"><img src="../img/hz11.JPG"></div>
-        <div class="image"><img src="../img/hz12.JPG"></div>
-        <div class="image"><img src="../img/hz13.JPG"></div>
-        <div class="image"><img src="../img/hz14.JPG"></div>
-        <div class="image"><img src="../img/hz15.JPG"></div>
-        <div class="image"><img src="../img/hz16.JPG"></div>
-        <div class="image"><img src="../img/hz17.JPG"></div>
-        <div class="image"><img src="../img/hz18.JPG"></div>
-        <div class="image"><img src="../img/hz19.JPG"></div>
-        <div class="image"><img src="../img/hz20.JPG"></div>
-        <div class="image"><img src="../img/hz21.JPG"></div>
-        <div class="image"><img src="../img/hz22.JPG"></div>
-        <div class="image"><img src="../img/hz23.JPG"></div>
+        <div class="image"><img src="../img/hz0.jpg"></div>
+        <div class="image"><img src="../img/hz1.jpg"></div>
+        <div class="image"><img src="../img/hz2.jpg"></div>
+        <div class="image"><img src="../img/hz3.jpg"></div>
+        <div class="image"><img src="../img/hz4.jpg"></div>
+        <div class="image"><img src="../img/hz5.jpg"></div>
+        <div class="image"><img src="../img/hz6.jpg"></div>
+        <div class="image"><img src="../img/hz7.jpg"></div>
+        <div class="image"><img src="../img/hz8.jpg"></div>
+        <div class="image"><img src="../img/hz9.jpg"></div>
+        <div class="image"><img src="../img/hz10.jpg"></div>
+        <div class="image"><img src="../img/hz11.jpg"></div>
+        <div class="image"><img src="../img/hz12.jpg"></div>
+        <div class="image"><img src="../img/hz13.jpg"></div>
+        <div class="image"><img src="../img/hz14.jpg"></div>
+        <div class="image"><img src="../img/hz15.jpg"></div>
+        <div class="image"><img src="../img/hz16.jpg"></div>
+        <div class="image"><img src="../img/hz17.jpg"></div>
+        <div class="image"><img src="../img/hz18.jpg"></div>
+        <div class="image"><img src="../img/hz19.jpg"></div>
+        <div class="image"><img src="../img/hz20.jpg"></div>
+        <div class="image"><img src="../img/hz21.jpg"></div>
+        <div class="image"><img src="../img/hz22.jpg"></div>
+        <div class="image"><img src="../img/hz23.jpg"></div>
     </div>
 </body>
 </html>

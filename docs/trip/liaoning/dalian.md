@@ -47,30 +47,30 @@ icon: dalian
 </head>
 <body>
     <div class="shell">
-        <div class="image"><img src="../img/dl1.JPG"></div>
-        <div class="image"><img src="../img/dl2.JPG"></div>
-        <div class="image"><img src="../img/dl3.JPG"></div>
-        <div class="image"><img src="../img/dl4.JPG"></div>
-        <div class="image"><img src="../img/dl5.JPG"></div>
-        <div class="image"><img src="../img/dl6.JPG"></div>
-        <div class="image"><img src="../img/dl7.JPG"></div>
-        <div class="image"><img src="../img/dl8.JPG"></div>
-        <div class="image"><img src="../img/dl9.JPG"></div>
-        <div class="image"><img src="../img/dl10.JPG"></div>
-        <div class="image"><img src="../img/dl11.JPG"></div>
-        <div class="image"><img src="../img/dl12.JPG"></div>
-        <div class="image"><img src="../img/dl13.JPG"></div>
-        <div class="image"><img src="../img/dl14.JPG"></div>
-        <div class="image"><img src="../img/dl15.JPG"></div>
-        <div class="image"><img src="../img/dl16.JPG"></div>
-        <div class="image"><img src="../img/dl17.JPG"></div>
-        <div class="image"><img src="../img/dl18.JPG"></div>
-        <div class="image"><img src="../img/dl19.JPG"></div>
-        <div class="image"><img src="../img/dl20.JPG"></div>
-        <div class="image"><img src="../img/dl21.JPG"></div>
-        <div class="image"><img src="../img/dl22.JPG"></div>
-        <div class="image"><img src="../img/dl23.JPG"></div>
-        <div class="image"><img src="../img/dl24.JPG"></div>
+        <div class="image"><img src="../img/dl1.jpg"></div>
+        <div class="image"><img src="../img/dl2.jpg"></div>
+        <div class="image"><img src="../img/dl3.jpg"></div>
+        <div class="image"><img src="../img/dl4.jpg"></div>
+        <div class="image"><img src="../img/dl5.jpg"></div>
+        <div class="image"><img src="../img/dl6.jpg"></div>
+        <div class="image"><img src="../img/dl7.jpg"></div>
+        <div class="image"><img src="../img/dl8.jpg"></div>
+        <div class="image"><img src="../img/dl9.jpg"></div>
+        <div class="image"><img src="../img/dl10.jpg"></div>
+        <div class="image"><img src="../img/dl11.jpg"></div>
+        <div class="image"><img src="../img/dl12.jpg"></div>
+        <div class="image"><img src="../img/dl13.jpg"></div>
+        <div class="image"><img src="../img/dl14.jpg"></div>
+        <div class="image"><img src="../img/dl15.jpg"></div>
+        <div class="image"><img src="../img/dl16.jpg"></div>
+        <div class="image"><img src="../img/dl17.jpg"></div>
+        <div class="image"><img src="../img/dl18.jpg"></div>
+        <div class="image"><img src="../img/dl19.jpg"></div>
+        <div class="image"><img src="../img/dl20.jpg"></div>
+        <div class="image"><img src="../img/dl21.jpg"></div>
+        <div class="image"><img src="../img/dl22.jpg"></div>
+        <div class="image"><img src="../img/dl23.jpg"></div>
+        <div class="image"><img src="../img/dl24.jpg"></div>
     </div>
 </body>
 </html>
