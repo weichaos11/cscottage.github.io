@@ -53,11 +53,11 @@ icon: shengsi
         <div class="image"><img src="../img/ss3.jpg"></div>
         <div class="image"><img src="../img/ss4.jpg"></div>
         <div class="image"><img src="../img/ss5.jpg"></div>
-        <div class="image"><img src="../img/ss6.jpg"></div>
-        <div class="image"><img src="../img/ss7.jpg"></div>
-        <div class="image"><img src="../img/ss8.jpg"></div>
-        <div class="image"><img src="../img/ss9.jpg"></div>
-        <div class="image"><img src="../img/ss10.jpg"></div>
+        <div class="image"><img src="../img/ss6.JPG"></div>
+        <div class="image"><img src="../img/ss7.JPG"></div>
+        <div class="image"><img src="../img/ss8.JPG"></div>
+        <div class="image"><img src="../img/ss9.JPG"></div>
+        <div class="image"><img src="../img/ss10.JPG"></div>
         <div class="image"><img src="../img/ss11.jpg"></div>
         <div class="image"><img src="../img/ss12.jpg"></div>
         <div class="image"><img src="../img/ss13.jpg"></div>
